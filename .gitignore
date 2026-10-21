@@ -1,0 +1,22 @@
+# ignore Vivado runs, caches and generated IP esp oversized files
+mbv_pynq/mbv_pynq.runs/
+mbv_pynq/mbv_pynq.cache/
+mbv_pynq/mbv_pynq.gen/
+mbv_pynq/mbv_pynq.hw/
+mbv_pynq/mbv_pynq.ip_user_files/
+mbv_pynq/mbv_pynq.sim/
+mbv_pynq/.Xil/
+
+# ignore Vivado runs, caches and generated IP esp oversized files
+*.runs/
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.Xil/
+*.jou
+*.log
+*.str
+build/
+_ide/

@@ -1,0 +1,33 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.639958",
+   "Default View_TopLeft":"-127,-144",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.8.0 2024-04-26 e1825d835c VDI=44 GEI=38 GUI=JA:24.0
+#  -string -flagsOSRD
+preplace port port-id_sys_clock -pg 1 -lvl 0 -x -20 -y 160 -defaultsOSRD
+preplace inst microblaze_riscv_0 -pg 1 -lvl 2 -x 490 -y -20 -defaultsOSRD
+preplace inst microblaze_riscv_0_local_memory -pg 1 -lvl 3 -x 900 -y -60 -defaultsOSRD
+preplace inst microblaze_riscv_0_axi_periph -pg 1 -lvl 4 -x 1140 -y 150 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 5 -x 1410 -y 170 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 2 -x 490 -y 160 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 6 -x 1730 -y 170 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -x 100 -y -70 -defaultsOSRD
+preplace netloc clk_wiz_1_locked 1 2 4 NJ 170 990J 260 NJ 260 1540
+preplace netloc mdm_1_debug_sys_rst 1 5 1 N 190
+preplace netloc microblaze_riscv_0_Clk 1 1 5 220 -140 760 150 1000 250 1270 90 1550J
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 2 5 810 30 NJ 30 NJ 30 NJ 30 1910
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 1 6 210 -120 780J 40 NJ 40 NJ 40 NJ 40 1900
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 3 4 1010 270 1280 270 NJ 270 1900
+preplace netloc clk_in1_0_1 1 0 2 N 160 N
+preplace netloc xlconstant_0_dout 1 1 5 200J -130 790J 50 NJ 50 NJ 50 1560
+preplace netloc microblaze_riscv_0_axi_dp 1 2 2 750 110 NJ
+preplace netloc microblaze_riscv_0_debug 1 1 5 230 -110 770J 20 NJ 20 NJ 20 1540
+preplace netloc microblaze_riscv_0_dlmb_1 1 2 1 750 -90n
+preplace netloc microblaze_riscv_0_ilmb_1 1 2 1 800 -70n
+preplace netloc microblaze_riscv_0_mdm_axi 1 4 1 N 150
+levelinfo -pg 1 -20 100 490 900 1140 1410 1730 1930
+pagesize -pg 1 -db -bbox -sgen -190 -150 1930 290
+"
+}
+0
